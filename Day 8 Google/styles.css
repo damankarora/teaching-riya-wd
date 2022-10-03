@@ -1,0 +1,116 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+
+/* Top Section */
+
+.topSection{
+    display: flex;
+    justify-content: flex-end;
+    margin: 8px 0;
+    
+}
+
+.topSection div {
+    margin: 0 8px;
+}
+
+
+/* Main Section */
+
+.mainSection{
+    height: 500px;
+    /* background-color: pink; */
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+}
+
+
+.mainSectionContent div {
+    text-align: center;
+    margin: 15px 0;
+}
+
+
+.inputContainer input{
+    width: 70%;
+    font-size: 18px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    border: 1px solid #DFE1E5;
+}
+
+.buttonContainer button{
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #F8F9FA;
+    /* background-color: aqua; */
+    padding: 5px 15px;
+    margin: 0 10px;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    transition: 0.3s all;
+}
+
+
+.buttonContainer button:hover{
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    background-color: #f8f9fa;
+    /* background-color: blue; */
+    border: 1px solid #dadce0;
+    color: #202124;
+    
+}
+
+.translationContainer a{
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.translationContainer a:hover{
+    text-decoration: underline;
+}
+
+
+
+
+/* Bottom Section */
+.bottomSection2{    
+    display: flex;
+    justify-content: flex-end;
+}
+
+.bottomSection2 div:nth-child(4){
+    /* margin-left: auto; */
+    margin-right: auto;
+}
+
+.bottomSection2 div, .bottomSection1 div{
+    margin: 0 8px;
+}
+
+.bottomSection1, .bottomSection2{
+    padding: 8px 0;
+    background-color: #F2F2F2;
+    
+}
+
+.bottomSections{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.divider{
+    width: 100%;
+    background-color: #DADCE0;
+    /* background-color: blue; */
+    height: 1px;
+}
+
