@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.mainContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #FFDBC5;
+}
+
+
+
+.buttonContainer button {
+    padding: 20px 60px;
+    font-size: 20px;
+    /* background-color: #C8293F; */
+    background-color: transparent;
+    color: #C8293F;
+    /* color: #FFDBC5; */
+    border: 2px solid #C8293F;
+    font-weight: bold;
+    border-radius: 35px;
+    position: relative;
+    bottom: 0px;    
+    transform: rotate(0deg);
+    transition: all 0.3s ease-in-out;
+}
+
+.buttonContainer button:hover {
+    background-color: #530030;
+    border: 2px solid #530030;
+    color: #FFDBC5;
+}
+
+button:active{    
+    transform: rotate(-5deg);
+    bottom: 10px;
+    padding: 20px 65px;
+}
